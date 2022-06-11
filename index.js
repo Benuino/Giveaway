@@ -1,4 +1,6 @@
 const Discord = require("discord.js");
+conts dotenv = require("dotenv");
+dotenv.config();
 const client = new Discord.Client({ intents: 7753 });
 const fs = require("fs");
 const config = require("./config.json");
